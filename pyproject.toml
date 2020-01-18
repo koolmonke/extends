@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "extends"
-version = "0.1.0"
+version = "0.2.0"
 description = "A simple Python library that adds a decorator which helps extend functionality of classes by new methods without inheritanting them"
 authors = ["Arthur Hakimov <verybigfolder@yandex.ru>"]
 license = "BSD-3-Clause"
