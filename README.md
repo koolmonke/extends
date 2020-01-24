@@ -1,5 +1,5 @@
 # extends
-A simple Python library that adds a decorator which helps extend functionality of classes by new methods without inheritanting them
+A simple Python library that adds a decorator which helps extend functionality of classes by new methods without inheriting them
 
 # Example
 ```python3
