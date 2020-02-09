@@ -13,6 +13,7 @@ python = "^3.5"
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
 black = {version = "^19.10b0", python = "^3.7"}
+mypy = "^0.761"
 
 
 [build-system]
