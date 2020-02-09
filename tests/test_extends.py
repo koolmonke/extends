@@ -1,10 +1,9 @@
 from extends import __version__
 from extends import extends
-from pytest import fixture
 
 
 def test_version():
-    assert __version__ == "0.3.0"
+    assert __version__ == '0.3.0'
 
 
 def test_extension():
@@ -14,7 +13,7 @@ def test_extension():
             self.age = age
 
     @extends(Person)
-    def print(self: Person):
+    def print(self: Person) -> str:
         return f'{self.name}, {self.age} years old.'
-    
+
     assert Person('Alice', 22).print() == 'Alice, 22 years old.'
