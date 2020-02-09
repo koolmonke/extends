@@ -13,7 +13,7 @@ def test_extension():
             self.age = age
 
     @extends(Person)
-    def print(self: Person) -> str:
+    def __str__(self: Person) -> str:
         return f'{self.name}, {self.age} years old.'
 
-    assert Person('Alice', 22).print() == 'Alice, 22 years old.'
+    assert str(Person('Alice', 22)) == 'Alice, 22 years old.'
